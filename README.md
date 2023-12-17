@@ -1,0 +1,1 @@
+# shopify-gadget-app---cookie-banner-app
