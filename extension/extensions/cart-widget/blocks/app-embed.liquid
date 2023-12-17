@@ -1,0 +1,138 @@
+<style>
+  .consent {
+    z-index:999;
+    padding: 0px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0 -1px 10px 0 rgba(0,0,0,0.8);
+    border-radius: 10px;
+  }
+ 
+  .consent.banner-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+  }
+
+  .consent.banner-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+  }
+
+  .consent.box-bottom-left {
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    width: 30%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .consent.box-bottom-right {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 30%;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .consent.box-top-left {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 30%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+
+  .consent.box-top-right {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 30%;
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+
+  .reject {
+    border: none;
+    background: none;
+    padding: 0;
+    padding-top: 10px;
+  }
+
+  .reject svg {
+    height: 15px;
+  }
+
+  .consent.dark .reject svg {
+    color: white;
+  }
+
+  .accept {
+    width: 100%;
+    color: #FFFFFF;
+    border-color: #1863dc;
+    background-color: #1863dc;
+    padding: 8px 20px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 30px;
+  }
+
+  .consent.light {
+    color: rgb(38, 38, 38, 43);
+    background-color: rgb(249, 250, 255);
+    opacity: 1;
+  }
+
+  .consent.dark {
+    color: rgb(249, 250, 255);
+    background-color: #1C243E;
+  }
+
+  .consent.dark a {
+    color: white;
+  }
+
+  .custom a {
+    color: white;
+  }
+
+  .consent.christmas{
+    color:white;
+    background-color: #04AA6D;
+  }
+
+  .consent.crave{
+    color:white;
+    background-color: #cc0000;
+  }
+
+  .consent.small{
+    font-size:12px;
+  }
+
+  .consent.medium{
+    font-size:16px;
+  }
+
+  .consent.large{
+    font-size:20px;
+  }
+
+  .consent p {
+    margin: 0;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "cookie-banner",
+  "target": "body",
+  "javascript": "cart-widget.js"
+}
+{% endschema %}

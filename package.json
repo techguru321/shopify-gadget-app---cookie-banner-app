@@ -1,0 +1,43 @@
+{
+  "name": "gdpr-banner-app-backup",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Internal package for Gadget app Shopify Billing Recurring Usage V2 (Development environment)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@gadgetinc/react": "^0.14.3",
+    "@gadgetinc/react-shopify-app-bridge": "^0.13.2",
+    "@shopify/app-bridge": "3.5.0",
+    "@shopify/app-bridge-react": "3.5.0",
+    "@shopify/polaris": "10.45.0",
+    "@shopify/polaris-icons": "6.10.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "3.2.0",
+    "react-router-dom": "^6.6.1",
+    "shopify-api-node": "3.11.3",
+    "date-fns": "^2.29.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.5.3",
+    "vite": "^4.2.1",
+    "@gadget-client/billings": "link:.gadget/client",
+    "react-rte": "^0.16.0",
+    "react-html-parser": "2.0.2",
+    "react-chartjs-2": "2.7.6",
+    "chart.js": "2.8.0",
+    "exceljs": "^4.3.0",
+    "file-saver": "^2.0.5",
+    "fastify-cors": "6.0.3",
+    "@gadgetinc/auth": "^0.3.3",
+    "react-use-intercom": "^5.1.4",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-color": "^2.19.3",
+    "@gadget-client/gdpr-banner-app-backup": "link:.gadget/client",
+    "gadget-server": "link:.gadget/server",
+    "@gadget-client/gdpr-banner-app": "link:.gadget/client"
+  },
+  "scripts": {
+    "vite:build": "NODE_ENV=production vite build"
+  }
+}

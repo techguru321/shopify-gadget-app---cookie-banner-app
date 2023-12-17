@@ -1,1 +1,4 @@
-# shopify-gadget-app---cookie-banner-app
+## Getting started
+
+Simple GDPR cookie banner app for shopify store owners.
+
