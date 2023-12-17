@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { Page, Layout, LegacyCard } from "@shopify/polaris";
-
-const BoardToken = '8da24748-7cfb-7482-d5a1-a8f0e2845258';
+import { BoardToken } from './token';
 
 const Feedback = () => {
   useEffect(() => {

@@ -1,3 +1,4 @@
 .vscode/
 node_modules/
 .gadget/
+frontend/token.jsx
